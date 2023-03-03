@@ -6,7 +6,9 @@ namespace Ex1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Give me a string!");
+            string s = Console.ReadLine();
+            Console.WriteLine(s);
         }
     }
 }
